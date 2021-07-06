@@ -74,7 +74,10 @@
     align-items: center;
 }
 .section-howwedo__title {
-    margin: 0;
+    display: block;
+    width: 249px;
+    height: 39px;
+    margin: 0 0 32px 0;
     text-align: center;
     font-weight: bold;
     font-size: 14px;
@@ -85,8 +88,6 @@
 .section-howwedo__title::after {
     content:"-";
     display: block;
-    width: 280px;
-    height: 32px;
     font-weight: bold;
     font-size: 20px;
     line-height: 1.65;
@@ -97,6 +98,7 @@
 
 }
 .section-howwedo__text {
+    display: block;
     margin: 0;
     text-align: center;
     font-weight: 500;
@@ -165,7 +167,55 @@
     .section-howwedo__title-section {
         font-size: 46px;
         text-align: left;
+        margin-bottom: 50px;
     }
+    .section-howwedo__list {
+        width: 1314px;
+        margin-top: -20px;
+    }
+    .section-howwedo__item {
+        margin-top: 20px;
+        flex-basis: calc(100% / 3 - 20px);
+        height: 396px;
+        padding-bottom: 40px;
+        padding-top: 55px;
+    }
+    .section-howwedo__div1 {
+        margin-right: 30px;
+        margin-left: 30px;
+    }  
+    .section-howwedo__div2 {
+        margin-right: 30px;
+        margin-left: 30px;
+    }    
+    .section-howwedo__div3 {
+        margin-right: 30px;
+        margin-left: 30px;
+    }    
+    .section-howwedo__div4 {
+        margin-right: 30px;
+        margin-left: 30px;
+    }    
+    .section-howwedo__div5 {
+        margin-right: 30px;
+        margin-left: 30px;
+    }    
+    .section-howwedo__div6 {
+        margin-right: 30px;
+        margin-left: 30px;
+    }  
+    .section-howwedo__title {
+        font-size: 20px;
+        line-height: 1.4;
+        height: 53px;
+    } 
+    .section-howwedo__title--accent .br {
+        display: none;
+    }
+    .section-howwedo__text {
+        font-size: 18px;
+        line-height: 1.56;
+    }   
 }
 
 /* Секции страницы Порфолио 
